@@ -9,7 +9,7 @@ body {
     color: white;
     background-color: tomato;
     text-decoration: none;
-    padding: 10px 27px;
+    padding: 10px 20px;
     border-radius: 5px;
     justify-items: center;
 
@@ -26,13 +26,20 @@ body {
 
 }
 
-h1 {
+.heading {
 
     font-size: 50px;
     text-align: center;
     margin: 0;
 
 
+}
+
+.heading-primary {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
 }
 
 p {
@@ -46,4 +53,27 @@ p {
 
 #donate-now {
     padding-top: 17%;
+}
+
+h2 {
+    display: inline-block;
+    background-color: rgb(223, 226, 226);
+    color: rgb(95, 94, 94);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-inline: 5px;
+    border-radius: 5px;
+
+}
+
+#highlight-button {
+    color: tomato;
+    border: solid tomato;
+    background-color: rgb(243, 202, 194);
+}
+
+#money {
+    text-align: center;
 }
